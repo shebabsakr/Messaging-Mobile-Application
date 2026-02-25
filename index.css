@@ -1,0 +1,150 @@
+img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 150px;
+    top: 51px;
+}
+
+body {
+    background-color: #1b1924;
+}
+
+main {
+    min-height: 844px;
+    width: 390px;
+    background-color: #1b1924;
+    border-radius: 3px;
+    margin: 50px auto;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Josefin Sans', 'sans-serif';
+    padding-left: 59px;
+    position: relative;
+    top: 50px;
+    letter-spacing: 0%;
+}
+
+.write {
+    width: 317px;
+    height: 118px;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    margin-left: 36px;
+    margin-top: 50px;
+    resize: none;
+    color: #8F8F8F;
+    font-family: 'inter', 'sans-serif';
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    
+}
+
+.to-from {
+    width: 152.85px;
+    height: 40px;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 50px;
+    resize: none;
+    color: #8F8F8F;
+    font-family: 'inter', 'sans-serif';
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    transform: translateX(25px);
+    margin-top: 5px;
+    text-align: center;
+}
+
+button {
+    width: 317px;
+    height: 61px;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', 'sans-serif';
+    border-radius: 8px;
+    border: none;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #0084cb;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 20px;
+    padding-left: 113px;
+    padding-top: 5px;
+}
+
+#endorsement-list li {
+    background-color: white;
+    color: #1B1924;
+    list-style: none;
+    text-decoration: none;
+    width: 317px;
+    margin-left: 36px;
+    height:  fit-content !important;
+    transition: 0.5s ease-in-out;
+}
+
+.content-fit {
+    height: fit-content;
+}
+
+.to, .from {
+    color: #1B1924;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'inter', 'sans-serif';
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.from {
+    padding: 0px 10px !important;
+}
+
+.message {
+    text-align: center;
+}
+
+#endorsement-list li:hover {
+    transform: scale(1.05);
+    background-color: whitesmoke;
+}
+
+#endorsment-list {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.no-endo {
+    color: white;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
